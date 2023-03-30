@@ -1,0 +1,162 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do header */
+header {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header img {
+  height: 50px;
+}
+
+/* Estilo do menu */
+nav {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo do conte?do principal */
+main {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilo da galeria de fotos */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.gallery figure {
+  margin: 0;
+  flex-basis: calc(33.33% - 10px);
+  margin-bottom: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery figcaption {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* Estilo do formul?rio */
+form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input, form select, form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #333;
+}
+
+/* Estilo do footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+footer p {
+  margin-right: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

@@ -1,8 +1,20 @@
 /* reset */
-* {
-  margin: 0;
-  padding: 0;
+html {
   box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  list-style: none;
+
 }
 
 /* estilos específicos
@@ -11,15 +23,20 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 */
+:root{
+
+  font-size: clamp(14px,3vw,24px); 
+}
 
 
 header {
-  display: flexbox;
-  justify-content: right;
-  align-items: center;
+  
+  justify-content: left;
+  
   padding: 10vw;
   background-color: #212121;
   color: #fff;
+  background: linear-gradient(0deg,  #21212100 0%,  #212121 40%);
 }
 
 .logo {
@@ -38,6 +55,38 @@ header {
   margin: 0;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  vertical-align: top;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  
+}
+
+.container img {
+  
+  max-width: 50vw;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  
+  
+
+}
+
+p {
+  color: silver;
+  display: flex;
+  font-size: 2vw;
+  color: silver;
+  text-shadow: 0 0 3vw silver;
+  
+}
+
 nav {
   flex: 1;
 }
@@ -46,6 +95,7 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   list-style: none;
+ 
 }
 
 nav ul li {
@@ -73,10 +123,13 @@ h2 {
   text-align: center;
   margin-top: 50px;
   font-size: 40px;
-  color: #333;
+  color: silver;
   
   padding-bottom: 10px;
 }
+
+
+
 
 
 img {
@@ -91,28 +144,37 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #333;
+  padding: 100px;
+  background-color: #212121;
   color: #fff;
+  background: linear-gradient(0deg,  #212121 40%,  #21212100 100%);
 }
 
 address {
   flex: 1;
+ 
+ 
+  
 }
 
 address p {
   font-size: 18px;
   margin-bottom: 10px;
+  margin-top: 110px;
+  
 }
 
 address li {
   font-size: 16px;
   margin-bottom: 5px;
+  
+ 
 }
 
 ul {
   display: flex;
   list-style: none;
+ 
 }
 
 ul li {
@@ -123,8 +185,12 @@ ul a {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
+  
+  
 }
 
 ul a:hover {
   text-decoration: underline;
 }
+
+

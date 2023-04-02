@@ -32,25 +32,24 @@ body {
 header {
   
   justify-content: left;
-  
   padding: 10vw;
   background-color: #212121;
   color: #fff;
   background: linear-gradient(0deg,  #21212100 0%,  #212121 40%);
 }
 
+
 .logo {
   display: flex;
   align-items: center;
+  margin-bottom: 150px;
 }
 
 .logo img {
   width: 20%;
   height: 20%;
   margin-right: 10px;
-}
 
-.logo h1 {
   font-size: 5vw;
   margin: 0;
 }

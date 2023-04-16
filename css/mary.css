@@ -208,7 +208,11 @@ section h2{
 
 }
 /* ---------------------------------------------------------------------------- */
-
+display: flexbox;
+  vertical-align: top;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 10px;
 /* --------------------------------PÁGINA PRINCIPAL---------------------------- */
 .saibamais{
 

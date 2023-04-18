@@ -66,6 +66,7 @@ h1 {
   vertical-align: top;
   width: 50%;
   box-sizing: border-box;
+  font-size: clamp(16px, 4vw, 24px);
 
 
 }

@@ -212,7 +212,7 @@ nav ul li {
 
 
 nav ul li a {
-  font-size: clamp(14px, 3vw, 20px);
+  font-size: clamp(16px, 4vw, 24px);
   text-decoration: underline;
   color: #fff;
   
